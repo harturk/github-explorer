@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Hártur\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js --v
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Hártur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Hártur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hártur\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Hártur\Documents\react\github-explorer\package.json: Unexpected token } in JSON at position 151
+      at JSON.parse (<anonymous>)
+      at C:\Users\Hártur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Hártur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Hártur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "github-explorer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.3.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.15.7",
+      "@babel/core": "^7.15.8",
+      "@babel/preset-env": "^7.15.8",
+      "@babel/preset-react": "^7.14.5",
+      "babel-loader": "^8.2.2",
+      "html-webpack-plugin": "^5.3.2",
+      "webpack": "^5.58.1",
+      "webpack-cli": "^4.9.0",
+      "webpack-dev-server": "^4.3.1"
+    },
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
